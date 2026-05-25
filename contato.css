@@ -54,35 +54,22 @@ nav ul li a:hover{
     justify-content: space-between;
     padding: 80px 8%;
 }
-.texto-apresentacao-contato{
-    max-width: 400px;
-    color: white;
-}
-.texto-apresentacao-contato .saudacao{
-    color: rgb(255, 255, 255);
-    font-size:  20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
+
 .texto-apresentacao-contato h1{
-    font-size: 50px;
+    font-size: 75px;
     margin-bottom: 15px;
     color: white;
 }
 .texto-apresentacao-contato h1 span{
     color: rgb(255, 255, 255);
 }
-.texto-apresentacao-contato p{
-    color: white;
-    font-size: 20px;
-    margin-bottom: 20px;
-}
+
 .grupo-botoes{
     display: flex;
     gap: 30px;
 }
 .btn-c{
-    padding: 12px 30px;
+    padding: 30px 50px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
@@ -92,13 +79,16 @@ nav ul li a:hover{
     color: rgb(33, 33, 196);
 }
 .btn-contato{
+    font-size: 20px;
     background-color: rgb(29, 71, 211);
     color: rgb(255, 255, 255);
 }
 .btn-contato:hover{
     background-color: rgb(8, 87, 139);
 }
-.area-imagem{
+.area-imagem img{
+    right: 90px;
+    width: 300px;
     position: relative;
 }
 
@@ -107,6 +97,7 @@ footer{
     padding: 40px 8%;
     text-align: center;
     margin-top: 50px;
+    flex-shrink: 0;
 }
 .conteudo-rodape{
     display: flex;
