@@ -48,29 +48,31 @@ nav ul li a:hover{
     color: aqua;
 }
 /*conteúdo principal*/
-.secao-principal{
+.secao-principal-contato{
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 80px 8%;
 }
-.texto-apresentacao{
+.texto-apresentacao-contato{
     max-width: 400px;
+    color: white;
 }
-.texto-apresentacao .saudacao{
-    color: rgb(46, 46, 233);
+.texto-apresentacao-contato .saudacao{
+    color: rgb(255, 255, 255);
     font-size:  20px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-.texto-apresentacao h1{
+.texto-apresentacao-contato h1{
     font-size: 50px;
     margin-bottom: 15px;
+    color: white;
 }
-.texto-apresentacao h1 span{
-    color: rgb(36, 38, 172);
+.texto-apresentacao-contato h1 span{
+    color: rgb(255, 255, 255);
 }
-.texto-apresentacao p{
+.texto-apresentacao-contato p{
     color: white;
     font-size: 20px;
     margin-bottom: 20px;
@@ -79,50 +81,27 @@ nav ul li a:hover{
     display: flex;
     gap: 30px;
 }
-.btn{
+.btn-c{
     padding: 12px 30px;
     border-radius: 50px;
     text-decoration: none;
     font-weight: bold;
     transform: 0.3s;
 }
-.btn:active{
+.btn-c:active{
     color: rgb(33, 33, 196);
 }
-.btn-contratar{
+.btn-contato{
     background-color: rgb(29, 71, 211);
     color: rgb(255, 255, 255);
 }
-.btn-contratar:hover{
+.btn-contato:hover{
     background-color: rgb(8, 87, 139);
-}
-.btn-trabalhos{
-    border: 2px solid rgb(25, 51, 170);
-    color: white;
-}
-.btn-trabalhos:hover{
-    background-color: rgb(8, 87, 139);
-    
 }
 .area-imagem{
     position: relative;
 }
-.moldura-circular{
-    background-color: rgb(8, 87, 139);
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border: 6px solid white;
-}
-.moldura-circular img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 footer{
     background-color: rgb(7, 71, 136);
     padding: 40px 8%;
@@ -140,7 +119,7 @@ footer{
     color: white;
     text-decoration: none;
     margin: 0 15px;
-    font-size: 15px;`
+    font-size: 15px;
 }
 .navegacao a:hover{
     color: rgb(9, 99, 189)
