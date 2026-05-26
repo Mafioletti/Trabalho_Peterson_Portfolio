@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Portfolio_Mafioletti</title>
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="contratar.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" />
 </head>
 <body>
     <!--Cabeçalho logo e nav-->
@@ -14,44 +15,46 @@
             <ul>
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="servicos.html">Serviços</a></li>
                 <li><a href="habilidades.html">Habilidades</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
     </header>
     <!-- Seção principal de apresentação-->
-     <main class="secao-principal">
-         <div class="texto-apresentacao">
-             <p class="paragrafo">Olá</p>
-            <h1>Meu nome é <span>Leonardo</span></h1>
-            <p>Programador e Músico, cursando o 3° ano do ensino médio</p>
-
-            <div class="grupo-botoes">
-                <a href="contratar.html" class="btn btn-contratar">Contrate-me</a>
-                <a href="servicos.html" class="btn btn-trabalhos">Meus trabalhos</a>
+     <div class="login-box">
+        <h1>
+            <span>Contrate-me</span>
+        </h1>
+        <p>Preencha os dados de login para acessar</p>
+        <div class="input-group">
+            <label><strong>Usuário</strong></label>
+            <div class="input-box">
+                <input type="text" placeholder="Digite seu nome completo">
+                <span class="material-symbols-outlined">
+                person
+                </span>
             </div>
         </div>
-        <!--Area imagem principal-->
-        <div class="area-imagem">
-            <div class="moldura-circular">
-                <img src="mafia.png">
+        <div class="input-group">
+            <label><strong>Senha</strong></label>
+            <div class="input-box">
+                <input type="password" placeholder="Digite uma senha para o cadastro">
+                <span class="material-symbols-outlined">
+                password
+                </span>
             </div>
         </div>
-    </main>
-    
+        <button>Concluir</button>
+    </div>
     <!--Rodapé-->
     <footer>
         <div class="conteudo-rodape">
             <div class="logotipo">Port<span>fólio</span></div>
             <div class="navegacao">
-                <a href="#">LinkedIn</a>
                 <a href="https://github.com/Mafioletti">GitHub</a>
-                <a href="#">Instagram</a>
-                <a href="#">E-mail</a>
+                <a href="https://www.instagram.com/leomafioletti/">Instagram</a>
             </div>
             <p class="direitos-autorais">&copy; 2026 - Todos os direitos reservados</p>
-            
         </div>
     </footer>
 </body>

@@ -48,11 +48,11 @@ nav ul li a:hover{
     color: aqua;
 }
 /*conteúdo principal*/
-.secao-principal-contato{
+.secao-principal-contato {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 8%;
+    flex-direction: column; 
+    align-items: center;  
+    text-align: center;     
 }
 
 .texto-apresentacao-contato h1{
@@ -70,7 +70,7 @@ nav ul li a:hover{
 }
 .btn-c{
     padding: 30px 50px;
-    border-radius: 50px;
+    border-radius: 100px;
     text-decoration: none;
     font-weight: bold;
     transform: 0.3s;
@@ -87,7 +87,6 @@ nav ul li a:hover{
     background-color: rgb(8, 87, 139);
 }
 .area-imagem img{
-    right: 90px;
     width: 300px;
     position: relative;
 }

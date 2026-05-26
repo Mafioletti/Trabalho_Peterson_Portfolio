@@ -5,7 +5,7 @@
 }
 
 body{
-    background: lch(4.16% 13.56 294.16);
+    background: lch(6.79% 50.41 305.29);
     color: white;
     line-height: 1.6;
 }
@@ -27,7 +27,7 @@ header{
     letter-spacing: 1px;
 }
 .logotipo span{
-    color: rgb(12, 6, 99);
+    color: rgb(25, 0, 167);
 }
 nav ul{
     display: flex;
@@ -47,87 +47,84 @@ nav ul li a{
 nav ul li a:hover{
     color: aqua;
 }
+
+
 /*conteúdo principal*/
-.secao-principal{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 80px 8%;
+.login-box{
+    background: rgb(43, 74, 211);
+    width: 440px;
+    padding: 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 20px;
 }
-.texto-apresentacao{
-    max-width: 400px;
-}
-.texto-apresentacao .saudacao{
-    color: rgb(46, 46, 233);
-    font-size:  20px;
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-.texto-apresentacao h1{
+.login-box h1{
+    text-align: center;
     font-size: 50px;
-    margin-bottom: 15px;
-}
-.texto-apresentacao h1 span{
-    color: rgb(36, 38, 172);
-}
-.texto-apresentacao p{
-    color: white;
-    font-size: 20px;
+    color: rgb(255, 255, 255);
     margin-bottom: 20px;
 }
-.grupo-botoes{
-    display: flex;
-    gap: 30px;
-}
-.btn{
-    padding: 12px 30px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: bold;
-    transform: 0.3s;
-}
-.btn:active{
-    color: rgb(33, 33, 196);
-}
-.btn-contratar{
-    background-color: rgb(29, 71, 211);
+.login-box h1 span{
     color: rgb(255, 255, 255);
 }
-.btn-contratar:hover{
-    background-color: rgb(8, 87, 139);
+
+.login-box p{
+    font-size: 20px;
+    text-align: center;
+    color: rgb(19, 9, 150);
 }
-.btn-trabalhos{
-    border: 2px solid rgb(25, 51, 170);
+.input-group label {
+    margin-bottom: 8px;
+    margin-top: 10px;
+    display: block;
+    color: #abafe0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.input-box{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(1, 1, 190);
+    margin-bottom: 20px;
+}
+.input-box input::placeholder{
     color: white;
 }
-.btn-trabalhos:hover{
-    background-color: rgb(8, 87, 139);
-    
-}
-.area-imagem{
-    position: relative;
-}
-.moldura-circular{
-    background-color: rgb(8, 87, 139);
+.input-box input {
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    border: 6px solid white;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 12px 0;
+    font-size: 15px;
+    color: #fff; 
 }
-.moldura-circular img{
+
+
+button{
     width: 100%;
-    height: 100%;
-    object-fit: cover;
+    padding: 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .3s;
 }
+
+button:hover{
+    background: rgb(0, 0, 224);
+}
+
 footer{
     background-color: rgb(7, 71, 136);
-    padding: 40px 8%;
+    padding: 40px 0;
     text-align: center;
-    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .conteudo-rodape{
     display: flex;
